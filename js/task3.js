@@ -11,7 +11,7 @@ function Car(brand, year, color, mileAge, ignition, amountPetrol) {
   this.ignition = ignition;
   this.amountPetrol = amountPetrol;
 
-  this.isIgnition =  function() {
+  this.isIgnition = function() {
     this.ignition = true;
   };
   this.start = function() {
