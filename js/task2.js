@@ -1,6 +1,7 @@
 var context = {
   number: 2
-}
+};
+
 console.log(getDoubled.call(context));
 console.log(getDoubledTrippled.call(context));
 
