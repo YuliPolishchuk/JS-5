@@ -1,11 +1,12 @@
-var context  = {
-  name: 'name',
-  number: 2
+'use strict';
+var context = {
+  name: 'name1',
+  getName: function() {
+    console.log(this.name);
+  }
 };
 
-console.log(getName());
-console.log(getName.call(context));
+context.getName();
 
-function getName() {
-  return this.context;
-}
+
+
