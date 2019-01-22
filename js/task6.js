@@ -19,7 +19,7 @@
   }
   
   function previos() {
-    if (slideIndex>= img.length - 1) {
+    if (slideIndex >= img.length - 1) {
       slideIndex--;
     } else {
       slideIndex = img.length - 1;
