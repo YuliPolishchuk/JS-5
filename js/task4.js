@@ -5,9 +5,9 @@ console.log(contCity.getCityName());
 console.log(contCity.addCitizen());
 
 function City(name, population, country) {
-  this.name = name,
-  this.population = population,
-  this.country = country,
+  this.name = name;
+  this.population = population;
+  this.country = country;
   this.getPopulation = function() {
     return this.population;
   };
