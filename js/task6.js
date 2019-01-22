@@ -8,7 +8,11 @@
   console.log(switchSlideNumber(1));
 
   function showSlide(next = true) {
-    next ? slideIndex++ : slideIndex--;
+    if (next) {
+      slideIndex++;
+    } else {
+      slideIndex--;
+    }
     slideIndex = Math.max(0, Math.min(img.length - 1, slideIndex));
     return slideIndex;
   }
